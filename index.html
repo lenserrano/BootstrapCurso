@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Conferencias</title>
+  </head>
+  <body data-spy="scroll" data-target="#navbar">
+    <!--Header-->
+    <header id="header" class="fixed-top align-items-center" data-offset="10">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="./assets/img/logo.png" alt="platzi_logo">
+              <span>Conf Hawai</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbar">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#hero">Conferencia<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#speakers">Oradores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#place-time">Lugar y fecha</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#be-a-speaker">Conviértete en orador</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-platzi" href="#" data-toggle="modal" data-target="#modal-compra">Comprar tickets</a>
+                </li>
+              </ul>
+            </div>
+          </div>    
+        </nav>
+    </header>
+    <!--/Header-->
+    <!--Main-->
+    <section id="hero">
+        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/hawaii1.jpeg" class="d-block w-100" alt="first_image">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/hawaii2.webp" class="d-block w-100" alt="second_image">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/hawaii3.jpg" class="d-block w-100" alt="third_image">
+              </div>
+            </div>
+            <div class="overlay">
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-md-6 offset-md-6 col-sm-12 text-center text-md-right">
+                    <h1>Platzi Conf Hawaii</h1>
+                    <p class="d-none d-md-block">Platzi Conf llega por primera vez a Hawaii, un evento para compartir con nuestra comunidad
+                      el conocimiento y experiencia de los expertos que están creando el futuro de internet.
+                      Ven a conocer miembros del team Platzi, a otros estudiantes de Platzi y a los oradores de 
+                      primer nivel que tenemos para ti.
+                    </p>
+                    <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
+                    <button type="button" class="btn btn-platzi" data-toggle="modal" data-target="#modal-compra">Comprar tickets</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+    </section>
+    <!--/Main-->
+    <!--Speakers-->
+    <section id ="speakers" class="mt-4 ">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center text-uppercase">
+            <small>Conoce a los</small>
+            <h2>Oradores</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                  <img src="https://picsum.photos/200/250" class="card-img-top" alt="foto">
+                  <div class="card-body">
+                    <h5 class="card-title mb-0">Len Serrano</h5>
+                    <div class="badges">
+                      <span class="badge badge-warning">JavaScript</span>
+                      <span class="badge badge-info">React</span>
+                    </div>
+                    <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia sapiente officia consequatur aliquam doloribus.</p>
+                  </div>
+                </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                  <img src="https://picsum.photos/200/250" class="card-img-top" alt="foto">
+                  <div class="card-body">
+                    <h5 class="card-title mb-0">Sun García</h5>
+                    <div class="badges">
+                        <span class="badge badge-secondary">SHCP</span>
+                        <span class="badge badge-success">Office</span>
+                      </div>
+                    <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ducimus alias cum sint, suscipit ex?</p>
+                  </div>
+                </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                  <img src="https://picsum.photos/200/250" class="card-img-top" alt="foto">
+                  <div class="card-body">
+                    <h5 class="card-title mb-0">Gricell Serrano</h5>
+                    <div class="badges">
+                        <span class="badge badge-secondary">SHCP</span>
+                        <span class="badge badge-primary">Negocios</span>
+                      </div>
+                    <p class="card-text mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo veniam sint aperiam consequatur excepturi.</p>
+                  </div>
+                </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                  <img src="https://picsum.photos/200/250" class="card-img-top" alt="foto">
+                  <div class="card-body">
+                    <h5 class="card-title mb-0">Norma Itzel García</h5>
+                    <div class="badges">
+                        <span class="badge badge-danger">AdobeSuit</span>
+                        <span class="badge badge-dark">Blender</span>
+                      </div>
+                    <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum saepe enim facilis? Iure, nulla nobis.</p>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!--/Speakers-->
+    <!--Date&Place-->
+    <section id="place-time">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-6 pl-0 pr-0">
+            <img src="./assets/img/honolulu.jpg" alt="">
+          </div>
+          <div class="col-12 col-lg-6 pt-4 pb-4 text-justify">
+            <h2>Honolulu - Octubre 2020</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Rerum perspiciatis corrupti distinctio blanditiis culpa, 
+              quaerat fugiat laudantium et, doloribus natus dolorem 
+              consequuntur. Ducimus corporis esse, a asperiores laborum 
+              ipsum enim molestiae, voluptas illum dicta voluptatem dolores 
+              illo minima, sint odit ab in officiis velit assumenda qui 
+              explicabo id sit? Tempora.</p>
+            <a href="#" class="btn btn-outline-light"> Conoce más</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/Date&Place-->
+    <!--BeASpeaker-->
+    <section id="be-a-speaker">
+      <div class="container">
+        <div class="row mt-2">
+          <div class="col text-uppercase text-center">
+            <small>Conviértete en un</small>
+            <h2>Orador</h2>
+          </div>
+        </div>
+        <div class="row mb-0">
+          <div class="col text-center">
+            <p>Anótate como orador para dar un charla <abbr title="Charlas de 5 minutos" data-toggle="tooltip">ignite</abbr>.Cuéntanos de qué quieres hablar.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-md-10 col-lg-8 offset-md-1 offset-lg-2 pt-2 pb-2">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-12 col-md-6">
+                  <input type="text" class="form-control" placeholder="Nombre completo">
+                </div>
+                <div class="form-group col-12 col-md-6">
+                  <input type="email" class="form-control" placeholder="Correo electrónico">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <textarea name="text" class="form-control form-control-lg" placeholder="¿Sobre que quieres hablar?"></textarea>
+                  <small class="form-text text-muted">Recuerda incluir un título para tu charla.</small>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <button type="button" class="btn btn-platzi btn-block">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/BeASpeaker-->
+    <!--Footer-->
+    <footer id="footer" class="pb-4 pt-4" >
+        <div class="container">
+            <div class="row text-center">
+              <div class="col-lg col-md col-12">
+                <a href="#">Preguntas frecuentes</a>
+              </div>
+              <div class="col-lg col-md col-12">
+                <a href="#">Contáctanos</a>
+              </div>
+              <div class="col-lg col-md col-12">
+                <a href="#">Prensa</a>
+              </div>
+              <div class="col-lg col-md col-12">
+                <a href="#">Términos y condiciones</a>
+              </div>
+              <div class="col-lg col-md col-12">
+                <a href="#">Privacidad</a>
+              </div>
+              <div class="col-lg col-md col-12">
+                <a href="#">Estudiantes</a>
+              </div>
+            </div>
+        </div>
+    </footer>
+    <!--/Footer-->
+    <!--Modal-->
+    <div class="modal fade" id="modal-compra" tabindex="-1" role="dialog" aria-labelledby="CompraTickets" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal-compra-center-title">Comprar Tickets</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="form-row">
+                <div class="form-group col">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">@</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Nombre de Usuario" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="alert alert-warning" role="alert">
+                Recibirás un correro de confirmación si sales sorteado.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-platzi">Comprar</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/Modal-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
